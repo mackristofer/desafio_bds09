@@ -6,7 +6,7 @@ import { removeAuthData } from 'utils/storage';
 import history from 'utils/history';
 
 import './styles.css';
-import 'bootstrap/js/src/collapse.js';
+//import 'bootstrap/js/src/collapse.js';
 
 const Navbar = () => {
   const { authContextData, setAuthContextData } = useContext(AuthContext);
